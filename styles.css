@@ -151,4 +151,20 @@ body {
 
 .attribution a {
      color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px) {
+    .order-summary-container {
+        height: 90vh;
+        width: 80vw;
     }
+
+    body {
+        background-image: url(./images/background-mobile.svg);
+        background-size: cover;
+    }
+
+    .attribution {
+        bottom: 5px;
+    }
+}
