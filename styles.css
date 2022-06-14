@@ -19,7 +19,7 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3, p, img {
+h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
@@ -155,7 +155,7 @@ body {
 
 @media (max-width: 375px) {
     .order-summary-container {
-        height: 90vh;
+        height: 80vh;
         width: 80vw;
     }
 
