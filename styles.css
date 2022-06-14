@@ -7,7 +7,7 @@
     /* Nuetral */
     --very-pale-blue: hsl(225, 100%, 98%);
     --desaturated-blue: hsl(224, 23%, 55%);
-    --dark-blue: hsl(223, 47%, 23%);
+    --dark-blue: #1E1FCE;
 }
 /* =================ROOT========================*/
 
@@ -56,6 +56,34 @@ body {
     justify-content: space-between;
     border-radius: 1em;
 
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.info {
+    font-weight: 500;
+    text-align: center;
+    padding: .5em 2.5em;
+    color: var(--desaturated-blue);
+}
+
+.payment-btn {
+    background-color: var(--dark-blue);
+    color: var(--very-pale-blue);
+    border-radius: .7em;
+    width: 80%;
+    text-align: center;
+    padding: .7em;
+}
+
+.cancel-btn {
+    color: var(--desaturated-blue);
+    cursor: pointer;
+    margin-bottom: 2em;
+    font-weight: 700;
 }
 
 
